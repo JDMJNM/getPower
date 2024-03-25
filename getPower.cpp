@@ -21,7 +21,7 @@ int main(int argc, char** argv)
 		100 * std::stof(currentCharge, nullptr) /
 			std::stof(fullCharge, nullptr);
 
-	return 1;
+	return 0;
 }
 
 void getFileData(std::string* result, const std::string fileName)

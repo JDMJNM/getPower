@@ -30,7 +30,7 @@ int main(int argc, char** argv)
 	free(currentCharge);
 	free(fullCharge);
 
-	return 1;
+	return 0;
 }
 
 void getLongestA(const char* data[], size_t size, size_t* result) {
